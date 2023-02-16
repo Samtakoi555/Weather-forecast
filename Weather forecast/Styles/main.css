@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  html {
+    font-family: Roboto, sans-serif;
+  }
+  
+.forecast img {
+    width: 80%;
+    height: auto;
+}
+
+  .weather {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .weather__inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .current {
+    text-align: center;
+    margin-bottom: 7em;
+  }
+  
+  .current__city {
+    font-size: 2em;
+  }
+  
+  .current__description {
+    font-size: 1.5em;
+  }
+  
+  .current__temperature {
+    font-size: 2em;
+  }
+
+  .forecast {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  
+  .forecast__item {
+    text-align: center ;
+  }
+  
+  .forecast__time, .forecast__icon {
+    margin-bottom: 1em;
+  }
+  
+  .forecast__temperature{
+    font-size: 1.5em;
+    margin-bottom: 5em;
+  }
+  
+
+  .text__details {
+    font-size: 1.5em;
+  }
+
+  .details_1 {
+    display: flex;
+    color: white;
+
+  }
+  .item_a {
+    padding-left: 16px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    flex-basis: 200px;
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+
+  .details_2 {
+    display: flex;
+    color: white;
+
+  }
+  .item_b {
+    padding-left: 16px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    flex-basis: 200px;
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+
+  .hr_1 {
+    padding-left: 6px;
+    width: 40%;
+    height: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.hr_2 {
+    padding-left: 10px;
+    width: 150px;
+    height: 0px;
+    margin-right: 10px;
+    margin-left: 660px;
+    margin-top: -2px;
+    margin-bottom: 1px;
+}
+
+
+
+.icon__01d,
+.icon__01n,
+.icon__02d,
+.icon__02n,
+.icon__03d,
+.icon__03n,
+.icon__04d,
+.icon__04n,
+.icon__09d,
+.icon__09n,
+.icon__10d,
+.icon__10n,
+.icon__11n,
+.icon__11n,
+.icon__13d,
+.icon__13n,
+.icon__50d,
+.icon__50n {
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.icon__01d,
+.icon__01n {
+  background-image: url("/Images/01d.png");
+}
+
+.icon__02d,
+.icon__02n {
+  background-image: url("/Images/02d.png");
+}
+
+.icon__03d,
+.icon__03n {
+  background-image: url("/Images/03d.png");
+}
+
+.icon__04d,
+.icon__04n {
+  background-image: url("/Images/04d.png");
+}
+
+.icon__09d,
+.icon__09n {
+  background-image: url("/Images/09d.png");
+}
+
+.icon__10d,
+.icon__10n {
+  background-image: url("/Images/10d.png");
+}
+
+.icon__11n,
+.icon__11n {
+  background-image: url("/Images/11d.png");
+}
+
+.icon__13d,
+.icon__13n {
+  background-image: url("/Images/13d.png");
+}
+
+.icon__50d,
+.icon__50n {
+  background-image: url("/Images/50d.png");
+}
+/*# sourceMappingURL=main.css.map */

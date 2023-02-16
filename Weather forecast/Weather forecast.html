@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title> Погода </title>
+</head>
+<body>
+
+    <style>
+        body {
+            background-image: url("Images/14d.png");
+        }
+    </style>
+
+    <div class="weather">
+        <div class="weather__inner">
+          <div class="current">
+            <div class="current__city"> Саранск </div>
+            <div class="current__description"> Снег </div>
+            <centr><img class="current__icon" src="Images/13d.png" alt="Снег"></centr>
+            <div class="current__temperature">-5˚</div>
+          </div>
+
+          <div class="forecast">
+            <div class="forecast__item">
+              <div class="forecast__time">Сейчас</div>
+              <img class="forecast" src="Images/13d.png" alt="Снег">
+              <div class="forecast__temperature"> -5˚ -9˚ </div>
+            </div>
+
+            <div class="forecast__item">
+                <div class="forecast__time"> Завтра </div>
+                <img class="forecast" src="Images/13d.png" alt="Снег">
+                <div class="forecast__temperature"> -6˚ -9 </div>  
+              </div>
+      
+              <div class="forecast__item">
+                <div class="forecast__time"> Чт 16 </div>
+                <img class="forecast" src="Images/13d.png" alt="Снег">
+                <div class="forecast__temperature"> -7˚ -8˚ </div>
+              </div>
+
+              <div class="forecast__item">
+                <div class="forecast__time"> Пт 17 </div>
+                <img class="forecast" src="Images/13d.png" alt="Снег">
+                <div class="forecast__temperature"> -3˚  -5˚ </div>
+              </div>
+
+              <div class="forecast__item">
+                <div class="forecast__time"> Сб 18 </div>
+                <img class="forecast" src="Images/13d.png" alt="Снег">
+                <div class="forecast__temperature"> -4˚ -7˚ </div>
+              </div>
+
+              <div class="forecast__item">
+                <div class="forecast__time"> Вс 19 </div>
+                <img class="forecast" src="Images/13d.png" alt="Снег">
+                <div class="forecast__temperature"> -9˚  -13˚ </div>
+              </div>
+          </div>
+
+              <div class="text__details">Подробности</div>
+
+              <br>       
+              <hr class="hr_1"><hr class="hr_2">
+              <br>
+                      <div class="details_1">
+                        <div class="item_a item_1">По ощущениям<br>
+                        -9°</div>
+                        <div class="item_a item_2">Влажность<br>
+                        85%</div>
+                        <div class="item_a item_3">Видимость<br>
+                        10 км</div>
+                        <div class="item_a item_4">Восход<br>
+                          <img class="forecast" src="Images/42d.png"width="40" height="40">
+                        </div>
+                      </div>
+                      <br>
+                      <div class="details_2">
+                        <div class="item_b item_5">Давление<br>
+                        750.00 мм</div>
+                        <div class="item_b item_6">Ветер<br>
+                        5 м/с</div>
+                        <div class="item_b item_7"><br>
+                        </div>
+                        <div class="item_b item_8">Закат<br>
+                          <img class="forecast" src="Images/41d.png"width="40" height="40">
+                        </div>
+                      </div>
+<script src='js/weather.js'></script>
+    </body>
+</html> 
